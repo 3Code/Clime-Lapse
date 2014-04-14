@@ -14,20 +14,20 @@
         android:layout_gravity="center"
         android:src="@drawable/ic_launcher" />
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="top"
-        android:text="@string/instruction"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:text="@string/button_camera" />
+        android:text="@string/button_camera"
+        android:onClick="takePicture" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/instruction"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </FrameLayout>
 
