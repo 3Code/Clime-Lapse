@@ -34,7 +34,7 @@
             android:label="@string/app_name" >
         </activity>
          <activity
-            android:name="com.clime_lapse.PhotoIntentc                      Activity"
+            android:name="com.clime_lapse.PhotoIntentActivity"
             android:label="@string/app_name" >
         </activity>
         <activity
